@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zing mp3</title>
+    <link rel="stylesheet" href="./icofont/icofont/icofont.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/page-3.css">
+
+    <link rel="stylesheet" href="./assets/style.css">
+    
+    <link rel="stylesheet" href="page_top100.css">
+    <link rel="stylesheet" href="Top100.css">
+</head>
+<body>
+    <div class="app">
+        <div class="wrapper">
+            <div class="menu">
+                <img src="https://static-zmp3.zadn.vn/zmp3_rpt/images/logo-mp3.svg" alt="" class="menu__img">
+                <ul class="menu__list">
+                    <div class="menu__list-nav">
+                        <li class="menu__list-item menu__list-item--active">
+                            <div class="menu__list-item__icon">
+                                <i class="icofont-bag-alt"></i>
+                            </div>
+                            <div class="menu__list-item__des">
+                                Cá Nhân
+                            </div>
+                        </li>
+                        <li class="menu__list-item">
+                            <div class="menu__list-item__icon">
+                                <i class="icofont-disc"></i>
+                            </div>
+                            <div class="menu__list-item__des">
+                                Khám phá
+                            </div>
+                        </li>
+                        <li class="menu__list-item">
+                            <div class="menu__list-item__icon">
+                                <i class="icofont-earth"></i>
+                            </div>
+                            <div class="menu__list-item__des">
+                                #zingchart
+                            </div>
+                        </li>
+                        <li class="menu__list-item">
+                            <div class="menu__list-item__icon">
+                                <i class="icofont-radio"></i>
+                            </div>
+                            <div class="menu__list-item__des">
+                                Radio
+                            </div>
+                        </li>
+                        <li class="menu__list-item">
+                            <div class="menu__list-item__icon">
+                                <i class="icofont-document-folder"></i>
+                            </div>
+                            <div class="menu__list-item__des">
+                                Theo dõi
+                            </div>
+                        </li>
+                    </div>
+                    <div class="menu__list-item__underline">
+
+                    </div>
+                    <div class="menu__list-subnav">
+                        <li class="menu__list-item">
+                            <div class="menu__list-item__icon">
+                                <i class="icofont-music"></i>
+                            </div>
+                            <div class="menu__list-item__des">
+                                Nhạc Mới
+                            </div>
+                        </li>
+                        <li class="menu__list-item">
+                            <div class="menu__list-item__icon">
+                                <i class="icofont-layout"></i>
+                            </div>
+                            <div class="menu__list-item__des">
+                                Thể Loại
+                            </div>
+                        </li>
+                        <li class="menu__list-item">
+                            <div class="menu__list-item__icon">
+                                <i class="icofont-star"></i>
+                            </div>
+                            <div class="menu__list-item__des">
+                                Top 100
+                            </div>
+                        </li>
+                        <li class="menu__list-item">
+                            <div class="menu__list-item__icon">
+                                <i class="icofont-bag-alt"></i>
+                            </div>
+                            <div class="menu__list-item__des">
+                                Khám phá
+                            </div>
+                        </li>
+                        <li class="menu__list-item">
+                            <div class="menu__list-item__icon">
+                                <i class="icofont-bag-alt"></i>
+                            </div>
+                            <div class="menu__list-item__des">
+                                Khám phá
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+                </div>
+                <div class="page">
+                    <!-- <div class="page__page-3__overlay">
+
+                    </div>
+                    
+                    <div class="page__page-3__alpha">
+
+                    </div>
+                    <div class="page__page-3__alpha2">
+
+                    </div> -->
+                    <div class="page__header">
+                        <div class="page__header__left">
+                            <div class="page__header__left-prev">
+                                <i class="icofont-long-arrow-left"></i>
+                            </div>
+                            <div class="page__header__left-next">
+                                <i class="icofont-long-arrow-right"></i>
+                            </div>
+                            <div class="page__header__left-search">
+                                <div class="page__header__left-search__icon">
+                                    <i class="icofont-search"></i>
+                                </div>
+                                <input type="text" class="page__header__left-search__input" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV..." autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="page__header__right">
+                            <li class="page__header__right-items page__header__right-items--theme">
+                                <i class="icon"><svg width="20" height="20" viewBox="0 0 20 20"><defs><linearGradient id="j32lhg93hd" x1="62.206%" x2="18.689%" y1="70.45%" y2="39.245%"><stop offset="0%" stop-color="#F81212"></stop><stop offset="100%" stop-color="red"></stop></linearGradient><linearGradient id="hjoavsus6g" x1="50%" x2="11.419%" y1="23.598%" y2="71.417%"><stop offset="0%" stop-color="#00F"></stop><stop offset="100%" stop-color="#0031FF"></stop></linearGradient><linearGradient id="la1y5u3dvi" x1="65.655%" x2="25.873%" y1="18.825%" y2="56.944%"><stop offset="0%" stop-color="#FFA600"></stop><stop offset="100%" stop-color="orange"></stop></linearGradient><linearGradient id="2dsmrlvdik" x1="24.964%" x2="63.407%" y1="8.849%" y2="55.625%"><stop offset="0%" stop-color="#13EFEC"></stop><stop offset="100%" stop-color="#00E8DF"></stop></linearGradient><filter id="4a7imk8mze" width="230%" height="230%" x="-65%" y="-65%" filterUnits="objectBoundingBox"><feGaussianBlur in="SourceGraphic" stdDeviation="3.9"></feGaussianBlur></filter><filter id="301mo6jeah" width="312.7%" height="312.7%" x="-106.4%" y="-106.4%" filterUnits="objectBoundingBox"><feGaussianBlur in="SourceGraphic" stdDeviation="3.9"></feGaussianBlur></filter><filter id="b2zvzgq7fj" width="295%" height="295%" x="-97.5%" y="-97.5%" filterUnits="objectBoundingBox"><feGaussianBlur in="SourceGraphic" stdDeviation="3.9"></feGaussianBlur></filter><filter id="a1wq161tvl" width="256%" height="256%" x="-78%" y="-78%" filterUnits="objectBoundingBox"><feGaussianBlur in="SourceGraphic" stdDeviation="3.9"></feGaussianBlur></filter><path id="qtpqrj1oda" d="M3.333 14.167V5.833l-1.666.834L0 3.333 3.333 0h3.334c.04 1.57.548 2.4 1.524 2.492l.142.008C9.403 2.478 9.958 1.645 10 0h3.333l3.334 3.333L15 6.667l-1.667-.834v8.334h-10z"></path><path id="jggzvnjgfc" d="M0 0H20V20H0z"></path><path id="2eiwxjmc7m" d="M3.333 14.167V5.833l-1.666.834L0 3.333 3.333 0h3.334c.04 1.57.548 2.4 1.524 2.492l.142.008C9.403 2.478 9.958 1.645 10 0h3.333l3.334 3.333L15 6.667l-1.667-.834v8.334h-10z"></path></defs><g fill="none" fill-rule="evenodd" transform="translate(2 3)"><mask id="tinejqaasb" fill="#fff"><use xlink:href="#qtpqrj1oda"></use></mask><use fill="#FFF" fill-opacity="0" xlink:href="#qtpqrj1oda"></use><g mask="url(#tinejqaasb)"><g transform="translate(-2 -3)"><mask id="uf3ckvfvpf" fill="#fff"><use xlink:href="#jggzvnjgfc"></use></mask><use fill="#D8D8D8" xlink:href="#jggzvnjgfc"></use><circle cx="8.9" cy="6.8" r="9" fill="url(#j32lhg93hd)" filter="url(#4a7imk8mze)" mask="url(#uf3ckvfvpf)"></circle><circle cx="9.3" cy="13.7" r="5.5" fill="url(#hjoavsus6g)" filter="url(#301mo6jeah)" mask="url(#uf3ckvfvpf)"></circle><circle cx="15.9" cy="6.9" r="6" fill="url(#la1y5u3dvi)" filter="url(#b2zvzgq7fj)" mask="url(#uf3ckvfvpf)"></circle><circle cx="16.4" cy="17.7" r="7.5" fill="url(#2dsmrlvdik)" filter="url(#a1wq161tvl)" mask="url(#uf3ckvfvpf)"></circle></g></g><use fill="#FFF" fill-opacity="0.05" xlink:href="#2eiwxjmc7m"></use></g></svg></i>
+                            </li>
+                            <li class="page__header__right-items page__header__right-items--upload">
+                                <i class="icofont-upload-alt"></i>
+                            </li>
+                            <li class="page__header__right-items page__header__right-items--setting">
+                                <i class="icofont-ui-settings"></i>
+                            </li>
+                            <li class="page__header__right-items page__header__right-items--avatar">
+                                <img class="avatar" src="data:image/jpeg;base64,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" alt="">
+                            </li>
+                        </div>
+                    </div>
+                    <script>
+                      var x,y  ;
+                        function change()
+                        {
+                          x = document.getElementById("libary");
+                          x.style.display="block"
+                        };
+                        function change2()
+                        {
+                          x = document.getElementById("libary");
+                          x.style.display = 'none';
+                        }
+                        function change3()
+                        {
+                          y = document.getElementById("other");
+                          y.style.display="block"
+                        };
+                        function change4()
+                        {
+                          y = document.getElementById("other");
+                          y.style.display = 'none';
+                        }
+                    </script>
+                    <div class="page__page8">
+                        <div class="page__page8-body">
+                            <!-- phần 1 -->
+                   <div class="page__page8-title">
+                     <p>Nổi bật</p>
+                   </div>
+                   <div class="page__page8-music">
+                     <div class="page__page8-box">
+                       <div class="page__page8-example">
+                         <div class="page__page8-enlarge"><img src="anh_top100/noibat/anh1.jpg" alt="">
+                          <div class="page__page8-screen">
+                             <div class="page__page8-play">
+                               <div class="page__page8-add">
+                                 <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                 <div class="page__page8-other" id="other" ><p>Khác</p></div>
+                               </div>
+                               <div class="page__page8-icon">
+                                 <div class="page__page8-heart">
+                            <i class="far fa-heart" onmouseenter="change()" onmouseleave="change2()"></i></div>
+                          <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                          <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h" onmouseenter="change3()" onmouseleave="change4()"></i></div>
+                               </div>
+                          
+                        </div>
+                          </div>
+                       </div>
+                         
+                       </div>
+                       <div class="page__page8-content">
+                        <p class="page__page8-category"><a href=""> Top 100 Bài Hát Nhạc Trẻ...</p>
+                          <p class="page__page8-singer"><a href="">Chi Dân,</a><span><a href="">Great,</a></span><span><a href="">Bảo Yến,</a></span>...</p>
+                       </div>
+                     </div>
+                     <div class="page__page8-box">
+                      <div class="page__page8-example">
+                        <div class="page__page8-enlarge"><img src="anh_top100/noibat/anh2.jpg" alt="">
+                         <div class="page__page8-screen">
+                            <div class="page__page8-play">
+                              <div class="page__page8-add">
+                                <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                <div class="page__page8-other" id="other" ><p>Khác</p></div>
+                              </div>
+                              <div class="page__page8-icon">
+                                <div class="page__page8-heart">
+                           <i class="far fa-heart" onmouseenter="change()" onmouseleave="change2()"></i></div>
+                         <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                         <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h" onmouseenter="change3()" onmouseleave="change4()"></i></div>
+                              </div>
+                         
+                       </div>
+                         </div>
+                      </div>
+                        
+                      </div>
+                      <div class="page__page8-content">
+                        <p class="page__page8-category"><a href=""> Top 100 Nhạc Trữ Tình...</p>
+                          <p class="page__page8-singer"><a href="">Lưu Ánh Loan,</a><span><a href="">Phi Nhung,</a></span><span><a href="">Như Quỳnh</a></span>...</p>
+                      </div>
+                    </div>
+                     <div class="page__page8-box">
+                       <div class="page__page8-example">
+                         <div class="page__page8-enlarge"><img src="anh_top100/noibat/anh3.jpg" alt="">
+                          <div class="page__page8-screen">
+                            <div class="page__page8-play">
+                              <div class="page__page8-add">
+                                <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                <div class="page__page8-other" id="other"><p>Khác</p></div>
+                              </div>
+                              <div class="page__page8-icon">
+                                <div class="page__page8-heart">
+                           <i class="far fa-heart"></i></div>
+                         <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                         <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                              </div>
+                         
+                       </div>
+                         </div></div>
+                         
+                       </div>
+                       <div class="page__page8-content">
+                         <p class="page__page8-category"><a href=""> Top 100 Nhạc EDM Hay...</p>
+                         <p class="page__page8-singer"><a href="">Alan Walker,</a><span><a href="">K-391,</a></span><span><a href="">Emelie Hollow</a></span>...</p>
+                       </div>
+                     </div>
+                     <div class="page__page8-box">
+                       <div class="page__page8-example">
+                         <div class="page__page8-enlarge"><img src="anh_top100/noibat/anh4.jpg" alt="">
+                          <div class="page__page8-screen">
+                            <div class="page__page8-play">
+                              <div class="page__page8-add">
+                                <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                <div class="page__page8-other" id="other"><p>Khác</p></div>
+                              </div>
+                              <div class="page__page8-icon">
+                                <div class="page__page8-heart">
+                           <i class="far fa-heart"></i></div>
+                         <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                         <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                              </div>
+                         
+                       </div>
+                         </div></div>
+                         
+                       </div>
+                       <div class="page__page8-content">
+                         <p class="page__page8-category"><a href=""> Top 100 Âu Mĩ Hay Nhất...</p>
+                         <p class="page__page8-singer"><a href="">Adele,</a><span><a href="">The Kid LAROI,</a></span><span><a href="">Justin Bieber,</a></span>...</p>
+                       </div>
+                     </div>
+                     <div class="page__page8-box">
+                       <div class="page__page8-example">
+                         <div class="page__page8-enlarge"><img src="anh_top100/noibat/anh5.jpg" alt="">
+                          <div class="page__page8-screen">
+                            <div class="page__page8-play">
+                              <div class="page__page8-add">
+                                <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                <div class="page__page8-other" id="other"><p>Khác</p></div>
+                              </div>
+                              <div class="page__page8-icon">
+                                <div class="page__page8-heart">
+                           <i class="far fa-heart"></i></div>
+                         <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                         <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                              </div>
+                         
+                       </div>
+                         </div></div>
+                         
+                       </div>
+                       <div class="page__page8-content">
+                         <p class="page__page8-category"><a href=""> Top 100 Nhạc Hàn Quốc...</p>
+                         <p class="page__page8-singer"><a href="">LISA,</a><span><a href="">JEONSOMI,</a></span><span><a href="">BLACKPINK</a></span>...</p>
+                       </div>
+                     </div>
+                     </div>
+                     <!-- phần 2 -->
+                     <div class="page__page8-title">
+                       <p>Việt Nam</p>
+                     </div>
+                     <div class="page__page8-music">
+                       <div class="page__page8-box">
+                         <div class="page__page8-example">
+                           <div class="page__page8-enlarge"><img src="anh_top100/vietnam/anh1.jpg" alt="">
+                            <div class="page__page8-screen">
+                              <div class="page__page8-play">
+                                <div class="page__page8-add">
+                                  <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                  <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                </div>
+                                <div class="page__page8-icon">
+                                  <div class="page__page8-heart">
+                             <i class="far fa-heart"></i></div>
+                           <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                           <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                </div>
+                           
+                         </div>
+                           </div></div>
+                           
+                         </div>
+                         <div class="page__page8-content">
+                           <p class="page__page8-category"><a href=""> Top 100 Nhạc V-Pop hay</p>
+                           <p class="page__page8-singer"><a href="">NH4T,</a><span><a href="">DIMZ,</a></span><span><a href="">TVK</a></span>  ,...</p>
+                         </div>
+                       </div>
+                       <div class="page__page8-box">
+                         <div class="page__page8-example">
+                           <div class="page__page8-enlarge"><img src="anh_top100/vietnam/anh2.jpg" alt="">
+                            <div class="page__page8-screen">
+                              <div class="page__page8-play">
+                                <div class="page__page8-add">
+                                  <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                  <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                </div>
+                                <div class="page__page8-icon">
+                                  <div class="page__page8-heart">
+                             <i class="far fa-heart"></i></div>
+                           <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                           <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                </div>
+                           
+                         </div>
+                           </div></div>
+                          
+                         </div>
+                         <div class="page__page8-content">
+                           <p class="page__page8-category"><a href=""> Top 100 Nhạc Rap Việt Nam</p>
+                           <p class="page__page8-singer"><a href="">G5R Squad,</a><span><a href="">Lil Wuyn,</a></span><span><a href="">Slow T</a></span></p>
+                         </div>
+                       </div>
+                       <div class="page__page8-box">
+                         <div class="page__page8-example">
+                           <div class="page__page8-enlarge"><img src="anh_top100/vietnam/anh3.jpg" alt="">
+                            <div class="page__page8-screen">
+                              <div class="page__page8-play">
+                                <div class="page__page8-add">
+                                  <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                  <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                </div>
+                                <div class="page__page8-icon">
+                                  <div class="page__page8-heart">
+                             <i class="far fa-heart"></i></div>
+                           <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                           <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                </div>
+                           
+                         </div>
+                           </div></div>
+                          
+                         </div>
+                         <div class="page__page8-content">
+                           <p class="page__page8-category"><a href=""> Top 100 Nhạc Rock Việt ...</p>
+                           <p class="page__page8-singer"><a href="">VOX,</a><span><a href="">Cường Cá,</a></span><span><a href="">Balin</a></span> ...</p>
+                         </div>
+                       </div>
+                       <div class="page__page8-box">
+                         <div class="page__page8-example">
+                           <div class="page__page8-enlarge"><img src="anh_top100/vietnam/anh4.jpg" alt="">
+                            <div class="page__page8-screen">
+                              <div class="page__page8-play">
+                                <div class="page__page8-add">
+                                  <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                  <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                </div>
+                                <div class="page__page8-icon">
+                                  <div class="page__page8-heart">
+                             <i class="far fa-heart"></i></div>
+                           <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                           <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                </div>
+                           
+                         </div>
+                           </div></div>
+                          
+                         </div>
+                         <div class="page__page8-content">
+                           <p class="page__page8-category"><a href=""> Top 100 Nhạc Cách Mạng...</p>
+                           <p class="page__page8-singer"><a href="">Trường Kha,</a><span><a href="">Quang Hà,</a></span><span><a href="">Tình Ca Việt</a></span> ...</p>
+                         </div>
+                       </div>
+                       <div class="page__page8-box">
+                         <div class="page__page8-example">
+                           <div class="page__page8-enlarge"><img src="anh_top100/vietnam/anh5.jpg" alt="">
+                            <div class="page__page8-screen">
+                              <div class="page__page8-play">
+                                <div class="page__page8-add">
+                                  <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                  <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                </div>
+                                <div class="page__page8-icon">
+                                  <div class="page__page8-heart">
+                             <i class="far fa-heart"></i></div>
+                           <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                           <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                </div>
+                           
+                         </div>
+                           </div></div>                         
+                         </div>
+                         <div class="page__page8-content">
+                           <p class="page__page8-category"><a href=""> Top 100 Nhạc Quê Hương</p>
+                           <p class="page__page8-singer"><a href="">Phi Nhung,</a><span><a href="">Chí Viễn,</a></span><span><a href="">Tố My</a></span>...</p>
+                         </div>
+                       </div>
+                       </div>
+                       <!--phần 3-->
+                       <div class="page__page8-title">
+                        <p>Âu Mĩ</p>
+                      </div>
+                      <div class="page__page8-music">
+                        <div class="page__page8-box">
+                          <div class="page__page8-example">
+                            <div class="page__page8-enlarge"><img src="anh_top100/aumi/anh1.jpg" alt="">
+                              <div class="page__page8-screen">
+                                <div class="page__page8-play">
+                                  <div class="page__page8-add">
+                                    <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                    <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                  </div>
+                                  <div class="page__page8-icon">
+                                    <div class="page__page8-heart">
+                               <i class="far fa-heart"></i></div>
+                             <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                             <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                  </div>
+                             
+                           </div>
+                             </div></div>
+                            
+                          </div>
+                          <div class="page__page8-content">
+                            <p class="page__page8-category"><a href=""> Top 100 Nhạc Country Âu...</p>
+                            <p class="page__page8-singer"><a href="">Taylor Swift,</a><span><a href="">Mitchell Tenpenny,</a></span><span><a href="">Walker Hayes</a></span>...</p>
+                          </div>
+                        </div>
+                        <div class="page__page8-box">
+                          <div class="page__page8-example">
+                            <div class="page__page8-enlarge"><img src="anh_top100/aumi/anh2.jpg" alt="">
+                              <div class="page__page8-screen">
+                                <div class="page__page8-play">
+                                  <div class="page__page8-add">
+                                    <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                    <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                  </div>
+                                  <div class="page__page8-icon">
+                                    <div class="page__page8-heart">
+                               <i class="far fa-heart"></i></div>
+                             <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                             <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                  </div>
+                             
+                           </div>
+                             </div></div>
+                           
+                          </div>
+                          <div class="page__page8-content">
+                            <p class="page__page8-category"><a href=""> Top 100 Nhạc Pop Âu Mĩ..</p>
+                              <p class="page__page8-singer"><a href="">Adele,</a><span><a href="">The Kid LAROI,</a></span><span><a href="">Justin Bieber,</a></span>...</p>
+                          </div>
+                        </div>
+                        <div class="page__page8-box">
+                          <div class="page__page8-example">
+                            <div class="page__page8-enlarge"><img src="anh_top100/aumi/anh4.jpg" alt="">
+                              <div class="page__page8-screen">
+                                <div class="page__page8-play">
+                                  <div class="page__page8-add">
+                                    <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                    <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                  </div>
+                                  <div class="page__page8-icon">
+                                    <div class="page__page8-heart">
+                               <i class="far fa-heart"></i></div>
+                             <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                             <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                  </div>
+                             
+                           </div>
+                             </div></div>
+                           
+                          </div>
+                          <div class="page__page8-content">
+                            <p class="page__page8-category"><a href=""> Top 100 Nhạc Rock Âu Mĩ..</p>
+                            <p class="page__page8-singer"><a href="">Simple Plan,</a><span><a href="">KOJ,</a></span><span><a href="">Foo Fighters </a></span>...</p>
+                          </div>
+                        </div>
+                        <div class="page__page8-box">
+                          <div class="page__page8-example">
+                            <div class="page__page8-enlarge"><img src="anh_top100/aumi/anh3.jpg" alt="">
+                              <div class="page__page8-screen">
+                                <div class="page__page8-play">
+                                  <div class="page__page8-add">
+                                    <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                    <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                  </div>
+                                  <div class="page__page8-icon">
+                                    <div class="page__page8-heart">
+                               <i class="far fa-heart"></i></div>
+                             <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                             <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                  </div>
+                             
+                           </div>
+                             </div></div>
+                           
+                          </div>
+                          <div class="page__page8-content">
+                            <p class="page__page8-category"><a href=""> Top 100 Nhạc EDM</p>
+                            <p class="page__page8-singer"><a href="">Alan Walker,</a><span><a href="">K-391,</a></span><span><a href="">Emelie Hollow</a></span>  ,...</p>
+                          </div>
+                        </div>
+                        <div class="page__page8-box">
+                          <div class="page__page8-example">
+                            <div class="page__page8-enlarge"><img src="anh_top100/aumi/anh5.jpg" alt="">
+                              <div class="page__page8-screen">
+                                <div class="page__page8-play">
+                                  <div class="page__page8-add">
+                                    <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                    <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                  </div>
+                                  <div class="page__page8-icon">
+                                    <div class="page__page8-heart">
+                               <i class="far fa-heart"></i></div>
+                             <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                             <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                  </div>
+                             
+                           </div>
+                             </div></div>                         
+                          </div>
+                          <div class="page__page8-content">
+                            <p class="page__page8-category"><a href=""> Top 100 Nhạc Rap/HipHop..</p>
+                            <p class="page__page8-singer"><a href="">The Weeknd,</a><span><a href="">Post Malone,</a></span><span><a href="">Iann Dior</a></span>...</p>
+                          </div>
+                        </div>
+                        </div>
+                         <!--phần 4-->
+                         <div class="page__page8-title">
+                          <p>Châu Á</p>
+                        </div>
+                        <div class="page__page8-music">
+                          <div class="page__page8-box">
+                            <div class="page__page8-example">
+                              <div class="page__page8-enlarge"><img src="anh_top100/chauA/anh1.jpg" alt="">
+                                <div class="page__page8-screen">
+                                  <div class="page__page8-play">
+                                    <div class="page__page8-add">
+                                      <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                      <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                    </div>
+                                    <div class="page__page8-icon">
+                                      <div class="page__page8-heart">
+                                 <i class="far fa-heart"></i></div>
+                               <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                               <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                    </div>                             
+                             </div>
+                               </div></div>
+                              
+                            </div>
+                            <div class="page__page8-content">
+                              <p class="page__page8-category"><a href=""> Top 100 Nhạc V-Pop hay</p>
+                              <p class="page__page8-singer"><a href="">NH4T,</a><span><a href="">DIMZ,</a></span><span><a href="">TVK</a></span>  ,...</p>
+                            </div>
+                          </div>
+                          <div class="page__page8-box">
+                            <div class="page__page8-example">
+                              <div class="page__page8-enlarge"><img src="anh_top100/noibat/anh5.jpg" alt="">
+                               <div class="page__page8-screen">
+                                 <div class="page__page8-play">
+                                   <div class="page__page8-add">
+                                     <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                     <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                   </div>
+                                   <div class="page__page8-icon">
+                                     <div class="page__page8-heart">
+                                <i class="far fa-heart"></i></div>
+                              <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                              <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                   </div>
+                              
+                            </div>
+                              </div></div>
+                              
+                            </div>
+                            <div class="page__page8-content">
+                              <p class="page__page8-category"><a href=""> Top 100 Nhạc Hàn Quốc...</p>
+                              <p class="page__page8-singer"><a href="">LISA,</a><span><a href="">JEONSOMI,</a></span><span><a href="">BLACKPINK</a></span>...</p>
+                            </div>
+                          </div>
+                          <div class="page__page8-box">
+                            <div class="page__page8-example">
+                              <div class="page__page8-enlarge"><img src="anh_top100/chauA/anh3.jpg" alt="">
+                                <div class="page__page8-screen">
+                                  <div class="page__page8-play">
+                                    <div class="page__page8-add">
+                                      <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                      <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                    </div>
+                                    <div class="page__page8-icon">
+                                      <div class="page__page8-heart">
+                                 <i class="far fa-heart"></i></div>
+                               <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                               <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                    </div>
+                               
+                             </div>
+                               </div></div>
+                             
+                            </div>
+                            <div class="page__page8-content">
+                              <p class="page__page8-category"><a href=""> Top 100 Nhạc Nhật Bản...</p>
+                              <p class="page__page8-singer"><a href="">Kenshi Yonezu,</a><span><a href="">YOASOBI,</a></span><span><a href="">  FLOW</a></span>...</p>
+                            </div>
+                          </div>
+                          <div class="page__page8-box">
+                            <div class="page__page8-example">
+                              <div class="page__page8-enlarge"><img src="anh_top100/chauA/anh4.jpg" alt="">
+                                <div class="page__page8-screen">
+                                  <div class="page__page8-play">
+                                    <div class="page__page8-add">
+                                      <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                      <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                    </div>
+                                    <div class="page__page8-icon">
+                                      <div class="page__page8-heart">
+                                 <i class="far fa-heart"></i></div>
+                               <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                               <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                    </div>
+                               
+                             </div>
+                               </div></div>
+                             
+                            </div>
+                            <div class="page__page8-content">
+                              <p class="page__page8-category"><a href=""> Top 100 Nhạc Hoa Hay...</p>
+                              <p class="page__page8-singer"><a href="">A Nhũng,</a><span><a href="">Mộng Nhiên,</a></span><span><a href="">Danh Quyết</a></span>...</p>
+                            </div>
+                          </div>
+                          <div class="page__page8-box">
+                            <div class="page__page8-example">
+                              <div class="page__page8-enlarge"><img src="anh_top100/chauA/anh4.jpg" alt="">
+                                <div class="page__page8-screen">
+                                  <div class="page__page8-play">
+                                    <div class="page__page8-add">
+                                      <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                      <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                    </div>
+                                    <div class="page__page8-icon">
+                                      <div class="page__page8-heart">
+                                 <i class="far fa-heart"></i></div>
+                               <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                               <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                    </div>
+                               
+                             </div>
+                               </div></div>
+                             
+                            </div>
+                            <div class="page__page8-content">
+                              <p class="page__page8-category"><a href=""> Top 100 Nhạc Hoa Hay...</p>
+                              <p class="page__page8-singer"><a href="">A Nhũng,</a><span><a href="">Mộng Nhiên,</a></span><span><a href="">Danh Quyết</a></span>...</p>
+                            </div>
+                          </div>
+                          </div>
+                           <!--phần 5-->
+                           <div class="page__page8-title">
+                            <p>Hòa Tấu</p>
+                          </div>
+                          <div class="page__page8-music">
+                            <div class="page__page8-box">
+                              <div class="page__page8-example">
+                                <div class="page__page8-enlarge"><img src="anh_top100/hoatau/anh1.jpg" alt="">
+                                  <div class="page__page8-screen">
+                                    <div class="page__page8-play">
+                                      <div class="page__page8-add">
+                                        <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                        <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                      </div>
+                                      <div class="page__page8-icon">
+                                        <div class="page__page8-heart">
+                                   <i class="far fa-heart"></i></div>
+                                 <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                                 <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                      </div>
+                                 
+                               </div>
+                                 </div></div>
+                                
+                              </div>
+                              <div class="page__page8-content">
+                                <p class="page__page8-category"><a href="">Top 100 Nhạc Hòa Tấu...</p>
+                                <p class="page__page8-singer"><a href="">Đinh Quang Minh,</a><span><a href="">Đông Hòa,</a></span><span><a href="">Francis Goya</a></span>...</p>
+                              </div>
+                            </div>
+                            <div class="page__page8-box">
+                              <div class="page__page8-example">
+                                <div class="page__page8-enlarge"><img src="anh_top100/hoatau/anh2.jpg" alt="">
+                                  <div class="page__page8-screen">
+                                    <div class="page__page8-play">
+                                      <div class="page__page8-add">
+                                        <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                        <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                      </div>
+                                      <div class="page__page8-icon">
+                                        <div class="page__page8-heart">
+                                   <i class="far fa-heart"></i></div>
+                                 <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                                 <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                      </div>
+                                 
+                               </div>
+                                 </div></div>
+                               
+                              </div>
+                              <div class="page__page8-content">
+                                <p class="page__page8-category"><a href=""> Top 100 Nhạc Hòa Tấu...</p>
+                                <p class="page__page8-singer"><a href="">David Darling,</a><span><a href="">The Piano Guys,</a></span><span><a href="">Yo Yo Ma</a></span>...</p>
+                              </div>
+                            </div>
+                            <div class="page__page8-box">
+                              <div class="page__page8-example">
+                                <div class="page__page8-enlarge"><img src="anh_top100/hoatau/anh3.jpg" alt="">
+                                  <div class="page__page8-screen">
+                                    <div class="page__page8-play">
+                                      <div class="page__page8-add">
+                                        <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                        <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                      </div>
+                                      <div class="page__page8-icon">
+                                        <div class="page__page8-heart">
+                                   <i class="far fa-heart"></i></div>
+                                 <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                                 <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                      </div>
+                                 
+                               </div>
+                                 </div></div>
+                               
+                              </div>
+                              <div class="page__page8-content">
+                                <p class="page__page8-category"><a href=""> Top 100 Nhạc Hòa Tấu...</p>
+                                <p class="page__page8-singer"><a href="">Vũ Đặng Quốc Việt,</a><span><a href="">Relax Lab,</a></span><span><a href="">Yiruma</a></span>...</p>
+                              </div>
+                            </div>
+                            <div class="page__page8-box">
+                              <div class="page__page8-example">
+                                <div class="page__page8-enlarge"><img src="anh_top100/hoatau/anh4.jpg" alt="">
+                                  <div class="page__page8-screen">
+                                    <div class="page__page8-play">
+                                      <div class="page__page8-add">
+                                        <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                        <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                      </div>
+                                      <div class="page__page8-icon">
+                                        <div class="page__page8-heart">
+                                   <i class="far fa-heart"></i></div>
+                                 <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                                 <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                      </div>
+                                 
+                               </div>
+                                 </div></div>
+                               
+                              </div>
+                              <div class="page__page8-content">
+                                <p class="page__page8-category"><a href=""> Top 100 Nhạc Hòa Tấu Cổ...</p>
+                                <p class="page__page8-singer"><a href="">Contempo-Divo,</a><span><a href="">김유정,</a></span><span><a href="">Hawa</a></span>...</p>
+                              </div>
+                            </div>
+                            <div class="page__page8-box">
+                              <div class="page__page8-example">
+                                <div class="page__page8-enlarge"><img src="anh_top100/hoatau/anh5.jpg" alt="">
+                                  <div class="page__page8-screen">
+                                    <div class="page__page8-play">
+                                      <div class="page__page8-add">
+                                        <div class="page__page8-lib" id="libary"><p>Thêm vào thư viện</p></div>
+                                        <div class="page__page8-other" id="other"><p>Khác</p></div>
+                                      </div>
+                                      <div class="page__page8-icon">
+                                        <div class="page__page8-heart">
+                                   <i class="far fa-heart"></i></div>
+                                 <div class="page__page8-playist"><i class="far fa-play-circle"></i></div>
+                                 <div class="page__page8-diffirent"><i class="fas fa-ellipsis-h"></i></div>
+                                      </div>
+                                 
+                               </div>
+                                 </div></div>                         
+                              </div>
+                              <div class="page__page8-content">
+                                <p class="page__page8-category"><a href=""> Top 100 Hòa Tấu New Ag/..</p>
+                                <p class="page__page8-singer"><a href="">Louie Ocampo,</a><span><a href="">Bandari,</a></span><span><a href="">  Richard clayderman</a></span>...</p>
+                              </div>
+                            </div>
+                            </div>
+                       
+                   </div>
+                    </div>
+                </div>
+        </div>
+        <audio id="audio" src=""></audio>
+        <div class="container-fluid dashboards">
+            <div class="row dashboards-row">
+              <div class="col-xl-4 dashboards__left">
+                  <div class="dashboards__left-left">
+                      <img src="data:image/jpeg;base64,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" alt="" class="dashboards__left-left-img">
+                    </div>
+                  <div class="dashboards__left-center">
+                    <div class="dashboards__left-center-name-music">
+                        Muộn rồi mà sao còn
+                    </div>
+                    <div class="dashboards__left-center-name-singer">
+                        Sơn tùng MTP
+                    </div>
+                  </div>
+                  <div class="dashboards__left-right">
+                    <div class="dashboards__left-right-love">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="dashboards__left-right-settings">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 dashboards__center">
+                  <div class="dashboards__center-button">
+                    <div class="dashboards__center-button__random">
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <div class="dashboards__center-button__prev">
+                        <i class="fas fa-step-backward"></i>
+                    </div>
+                    <div class="dashboards__center-button__play">
+                        <!-- dashboards__center-button__play--active -->
+                        <i class="fas fa-pause icon-pause"></i>
+                        <i class="fas fa-play icon-play"></i>
+                    </div>
+                    <div class="dashboards__center-button__next">
+                        <i class="fas fa-step-forward"></i>
+                    </div>
+                    <div class="dashboards__center-button__repeat">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                  </div>
+                  <div class="dashboards__center-bottom">
+                    <div class="dashboards__center-bottom__time-current">00:01</div>
+                    <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="300" />
+                    <div class="dashboards__center-bottom__time-end">04:06</div>
+                </div>
+              </div>
+              <div class="col-xl-4 dashboards__right">
+                <div class="dashboards__right__items dashboards__left__mv">
+                    <i class="fas fa-podcast"></i>
+                </div>
+                <div class="dashboards__right__items dashboards__left__microphone">
+                    <i class="fas fa-microphone"></i>
+                </div>
+                <div class="dashboards__right__items dashboards__left__window">
+                    <i class="fas fa-window-restore"></i>
+                </div>
+                <div class="dashboards__right__items dashboards__left__volume">
+                    <i class="fas fa-volume-mute"></i>
+                    <i class="fas fa-volume-up"></i>
+                </div>
+                <input id="progress-volume" class="progress-volume" type="range" value="200" step="1" min="0" max="200" />
+                <div class="dashboards__right__items dashboards__left__list">
+                    <i class="fas fa-clipboard-list"></i>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="./assets/script.js"></script>
